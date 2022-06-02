@@ -1,0 +1,7 @@
+# .pre-commit-hooks.yaml
+- id: run-pycode
+  name: run-pycode
+  description: Run python scripts
+  entry: run-pycode
+  language: python
+  args: ["--files=[]"]
