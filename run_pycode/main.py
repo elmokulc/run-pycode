@@ -9,6 +9,7 @@ def main():
         paths = sysarg[len(key_arg):].replace('[','').replace(']','').replace(' ','').split(',')
         for path in paths :
             if path.endswith(".py"):
+                print(f"Running {path}")
                 os.system(f"python {path}")
             else:
                 print(f"{path} is not a python file")
