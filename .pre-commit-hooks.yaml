@@ -4,4 +4,3 @@
   description: Run python scripts
   entry: run-pycode
   language: python
-  args: ["--files=[]"]
